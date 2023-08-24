@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -11,10 +11,8 @@
 <?php
 include_once 'component/header.php'
 ?>
-<main>
 
-    <p>Ceci est ma page d'accueil !!</p>
+Ceci est la page ABOUT
 
-</main>
 </body>
 </html>

@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
 <?php
 include_once 'component/header.php'
 ?>
-<main>
+    <main>
+        ceci est la page de contact !!
+    </main>
 
-    <p>Ceci est ma page d'accueil !!</p>
-
-</main>
 </body>
 </html>

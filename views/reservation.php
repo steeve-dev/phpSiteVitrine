@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang=frr>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,6 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    ceci est la 2éme page !!
+<?php
+include_once 'component/header.php'
+?>
+
+Ceci est la page de réservation
+
 </body>
 </html>

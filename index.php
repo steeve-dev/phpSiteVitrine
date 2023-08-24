@@ -2,12 +2,23 @@
 
 require_once 'controller/testFunction.php';
 
-if (isset($_POST['action'])) {
-    $action = $_POST['action'];
-
-    if ($action === 'deux') {
-        Page2Affichage();
-    }
-} else {
-    homePage();
+switch ($_POST['action']) {
+    case 'accueil':
+        homePage();
+        break;
+    case 'contact':
+        contactView();
+        break;
+    case 'reservation':
+        reservationView();
+        break;
+    case 'about':
+        aboutViews();
+        break;
+    default:
+        homePage();
+        break;
 }
+
+
+

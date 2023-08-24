@@ -4,6 +4,14 @@ function homePage(){
     include 'views/pageViews.php';
 }
 
-function Page2Affichage(){
-    include "views/page2Views.php";
+function contactView(){
+    include "views/contact.php";
+}
+
+function reservationView(){
+    include_once 'views/reservation.php';
+}
+
+function aboutViews(){
+    include_once 'views/about.php';
 }
