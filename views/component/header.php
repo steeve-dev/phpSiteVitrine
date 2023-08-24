@@ -4,28 +4,16 @@
     <nav>
         <ul>
             <li>
-                <form action="../../index.php" method="post">
-                    <input type="hidden" name="action" value="Accueil">
-                    <input type="submit" value="Accueil">
-                </form>
+                <a href="/">Accueil</a>
             </li>
             <li>
-                <form action="../../index.php" method="post">
-                    <input type="hidden" name="action" value="reservation">
-                    <input type="submit" value="reservation">
-                </form>
+                <a href="/reservation">Réservation</a>
             </li>
             <li>
-                <form action="../../index.php" method="post">
-                    <input type="hidden" name="action" value="about">
-                    <input type="submit" value="A propos">
-                </form>
+                <a href="/contact">Contact</a>
             </li>
             <li>
-                <form action="../../index.php" method="post">
-                    <input type="hidden" name="action" value="contact">
-                    <input type="submit" value="Contact">
-                </form>
+                <a href="/about">A propos</a>
             </li>
         </ul>
     </nav>
