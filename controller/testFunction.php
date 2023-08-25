@@ -1,5 +1,7 @@
 <?php
 
+
+
 function homePage(){
     include 'views/pageViews.php';
 }
